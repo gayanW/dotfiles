@@ -1,0 +1,49 @@
+xterm.vt100.faceName: Inconsolata:size=14:antialias=true
+
+! Base16 Tomorrow Night
+! Scheme: Chris Kempson (http://chriskempson.com)
+
+#define base00 #1d1f21
+#define base01 #282a2e
+#define base02 #373b41
+#define base03 #969896
+#define base04 #b4b7b4
+#define base05 #c5c8c6
+#define base06 #e0e0e0
+#define base07 #ffffff
+#define base08 #cc6666
+#define base09 #de935f
+#define base0A #f0c674
+#define base0B #b5bd68
+#define base0C #8abeb7
+#define base0D #81a2be
+#define base0E #b294bb
+#define base0F #a3685a
+
+xterm.vt100.foreground:   base05
+#ifdef background_opacity
+xterm.vt100.background:   [background_opacity]base00
+#else
+xterm.vt100.background:   base00
+#endif
+xterm.vt100.cursorColor:  base05
+
+xterm.vt100.color0:       base00
+xterm.vt100.color1:       base08
+xterm.vt100.color2:       base0B
+xterm.vt100.color3:       base0A
+xterm.vt100.color4:       base0D
+xterm.vt100.color5:       base0E
+xterm.vt100.color6:       base0C
+xterm.vt100.color7:       base05
+
+xterm.vt100.color8:       base03
+xterm.vt100.color9:       base09
+xterm.vt100.color10:      base01
+xterm.vt100.color11:      base02
+xterm.vt100.color12:      base04
+xterm.vt100.color13:      base06
+xterm.vt100.color14:      base0F
+xterm.vt100.color15:      base07
+
+! Base16 Tomorrow Night Ends
