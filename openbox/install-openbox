@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd $(dirname $BASH_SOURCE)
+BASE=$(pwd)
+
+sudo apt-get install openbox
+
+# rc.xml
+mkdir -p ~/.config/openbox
+mv -v ~/.config/openbox/rc.xml ~/.config/openbox/rc.xml.old 2> /dev/null
+ln -sf $BASE/rc.xml ~/.config/openbox/rc.xml
