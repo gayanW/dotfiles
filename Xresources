@@ -1,5 +1,8 @@
 xterm.vt100.faceName: Inconsolata:size=14:antialias=true
 
+! https://www.starnet.com/xwin32kb/copying-and-pasting-in-xterm/
+xterm*selectToClipboard: true
+
 ! Base16 Tomorrow Night
 ! Scheme: Chris Kempson (http://chriskempson.com)
 
