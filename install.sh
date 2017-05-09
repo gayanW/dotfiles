@@ -18,3 +18,4 @@ sudo apt-get install git
 # git-config
 git config --global user.email "gayan@linuxdeveloper.space"
 git config --global user.name "Gayan Weerakutti"
+git config --global core.editor "vim"
