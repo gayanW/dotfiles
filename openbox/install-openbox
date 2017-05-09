@@ -9,3 +9,9 @@ sudo apt-get install openbox
 mkdir -p ~/.config/openbox
 mv -v ~/.config/openbox/rc.xml ~/.config/openbox/rc.xml.old 2> /dev/null
 ln -sf $BASE/rc.xml ~/.config/openbox/rc.xml
+
+# scrot
+mkdir -p ~/Pictures/scrot
+
+# reload configuration
+openbox --reconfigure
