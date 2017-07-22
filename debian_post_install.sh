@@ -1,7 +1,8 @@
 #!/bin/bash
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install xz-utils
+
+sudo apt-get install xterm
 
 # openbox
 sudo apt-get install openbox
@@ -12,8 +13,11 @@ sudo apt-get install vim
 sudo apt-get install curl
 sudo apt-get install cmake # required for running junegunns install-vim
 sudo apt-get install maven
-sudo apt-get install at
-sudo apt-get install fonts-lklug-sinhala
+#sudo apt-get install at
+#sudo apt-get install fonts-lklug-sinhala
+
+# XZ-format compression utilities
+sudo apt-get install xz-utils
 
 # ntp
 sudo apt-get install ntp
@@ -35,3 +39,9 @@ sudo apt-get install mariadb-server
 
 # mpv
 sudo apt-get install mpv
+
+# sound
+sudo apt-get install alsa-base alsa-utils
+alsactl init
+
+sudo apt-get install dosfstools
