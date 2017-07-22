@@ -10,3 +10,10 @@ sudo apt-get install firmware-iwlwifi
 
 # Binary firmware for Realtek wired and wireless network adapters
 sudo apt-get install firmware-realtek
+
+# Sound
+rm -r ~/.config/pulse
+sudo apt-get purge alsa-base alsa-utils
+sudo apt-get install pulseaudio pavucontrol
+
+# Usage: pavucontrol
