@@ -318,14 +318,10 @@
   </keybind>
 
   <!-- added by gayanw -->
+  <!-- Keybindings for xterm -->
   <keybind key="W-t">
     <action name="Execute">
-      <command>/usr/bin/urxvtc</command>
-    </action>
-  </keybind>
-  <keybind key="W-grave">
-    <action name="Execute">
-      <execute>/usr/bin/urxvtq</execute>
+      <command>x-terminal-emulator</command>
     </action>
   </keybind>
 
