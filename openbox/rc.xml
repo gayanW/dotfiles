@@ -776,7 +776,7 @@
 -->
 
 <!-- added by gayanw -->
-<application class="*">
+<application type="normal">
   <maximized>yes</maximized>
 </application>
 
