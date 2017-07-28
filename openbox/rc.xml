@@ -776,17 +776,8 @@
 -->
 
 <!-- added by gayanw -->
-<application name="urxvtq">
-  <decor>no</decor>
-  <position force="yes">
-    <x>center</x>
-    <y>0</y>
-  </position>
-  <desktop>all</desktop>
-  <layer>above</layer>
-  <skip_pager>yes</skip_pager>
-  <skip_taskbar>yes</skip_taskbar>
-  <maximized>Horizontal</maximized>
+<application class="*">
+  <maximized>yes</maximized>
 </application>
 
 </applications>
