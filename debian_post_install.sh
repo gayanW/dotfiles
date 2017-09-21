@@ -13,6 +13,7 @@ sudo apt-get install vim
 sudo apt-get install curl
 sudo apt-get install cmake # required for running junegunns install-vim
 sudo apt-get install maven
+sudo apt-get install zathura # vim like pdf viewer
 #sudo apt-get install at
 #sudo apt-get install fonts-lklug-sinhala
 
