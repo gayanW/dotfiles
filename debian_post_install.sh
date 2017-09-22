@@ -46,3 +46,7 @@ sudo apt-get install alsa-base alsa-utils
 alsactl init
 
 sudo apt-get install dosfstools
+
+# sensors
+# https://help.ubuntu.com/community/SensorInstallHowto
+sudo apt-get install lm-sensors
