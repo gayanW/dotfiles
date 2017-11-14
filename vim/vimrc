@@ -12,6 +12,10 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 Plug 'junegunn/seoul256.vim'
 
+" Use ./install --all if you need fzf outside of Vim
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
+Plug 'junegunn/fzf.vim'
+
 call plug#end()
 
 " Unified color scheme (default: dark)
