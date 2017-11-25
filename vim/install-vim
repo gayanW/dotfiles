@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# install prerequisites
+sudo apt-get curl
+../git_install.sh
+
+sudo apt-get install vim-nox
+
 cd $(dirname $BASH_SOURCE)
 BASE=$(pwd)
 
