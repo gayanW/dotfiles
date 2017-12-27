@@ -342,6 +342,13 @@
     </action>
   </keybind>
 
+  <!-- Keybindings for display switching -->
+  <keybind key="W-h">
+    <action name="MoveResizeTo">
+      <monitor>next</monitor>
+    </action>
+  </keybind>
+
 </keyboard>
 
 <mouse>
