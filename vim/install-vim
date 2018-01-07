@@ -22,4 +22,9 @@ mkdir -p ~/.config/nvim/autoload
 ln -sf $BASE/vimrc ~/.config/nvim/init.vim
 ln -sf ~/.vim/autoload/plug.vim ~/.config/nvim/autoload/
 
+# ruby
+# ctags generator on gem install (without Exuberant Ctags)
+gem install gem-ripper-tags
+gem ripper_tags
+
 vim +PlugInstall +qall
