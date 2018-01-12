@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt-get install wireless-tools
 sudo apt-get install wpasupplicant
 
 echo
