@@ -14,4 +14,6 @@ cp $BASE/xinitrc  ~/.xinitrc
 mv -v ~/.Xresources ~/.Xresources.old 2> /dev/null
 cp $BASE/Xresources ~/.Xresources
 
+# xrdb -merge ~/.Xresources
+
 sudo apt-get install fonts-inconsolata
