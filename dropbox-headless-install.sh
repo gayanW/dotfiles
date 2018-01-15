@@ -1,23 +1,30 @@
 #!/bin/bash
-
-read -p "Do you want to re-download dropbox? " -n 1 -r
-echo    # (optional) move to a new line
-if [[ $REPLY =~ ^[Yy]$ ]]; then
-	cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
-fi
+set -x
 
 # Python script to control Dropbox from the command line. For easy access, put a symlink to the script anywhere in your PATH.
 mkdir -p ~/bin
 wget -O ~/bin/dropbox.py "https://www.dropbox.com/download?dl=packages/dropbox.py"
 chmod +x ~/bin/dropbox.py
 
+# start Dropbox, if successful, it should show "Starting Dropbox...Done!"
+~/bin/dropbox.py start -i
+
+until ~/bin/dropbox.py running; do
+	if [ $? -eq 1 ]; then
+		break
+	fi
+
+	echo "Waiting for Dropbox to start..!"
+	sleep 1
+done
+
+
 # exclude everything in your dropbox
 ~/bin/dropbox.py exclude add *
 
-# start Dropbox, if successful, it should show "Starting Dropbox...Done!"
-~/bin/dropbox.py start
+# except
+~/bin/dropbox.py exclude remove ~/Dropbox/cis/
 
-# run the Dropbox daemon from the newly created .dropbox-dist folder.
-# ~/.dropbox-dist/dropboxd
+set -x
 
 echo "See http://www.dropboxwiki.com/tips-and-tricks/using-the-official-dropbox-command-line-interface-cli"
