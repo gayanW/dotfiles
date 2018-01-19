@@ -4,6 +4,7 @@ cd $(dirname $BASH_SOURCE)
 BASE=$(pwd)
 
 sudo apt-get install openbox
+sudo apt-get install numix-gtk-theme
 
 # rc.xml
 mkdir -p ~/.config/openbox
