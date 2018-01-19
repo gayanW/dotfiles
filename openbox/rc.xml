@@ -356,6 +356,11 @@
     </action>
   </keybind>
 
+  <!-- Keybindings for windows -->
+  <keybind key="W-q">
+    <action name="Close"/>
+  </keybind>
+
 </keyboard>
 
 <mouse>
