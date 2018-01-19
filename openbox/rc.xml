@@ -349,6 +349,13 @@
     </action>
   </keybind>
 
+  <!-- Keybindings for firefox -->
+  <keybind key="W-f">
+    <action name="Execute">
+      <command>firefox-esr</command>
+    </action>
+  </keybind>
+
 </keyboard>
 
 <mouse>
