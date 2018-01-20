@@ -349,10 +349,15 @@
     </action>
   </keybind>
 
-  <!-- Keybindings for firefox -->
+  <!-- Keybindings for opening applications -->
   <keybind key="W-f">
     <action name="Execute">
       <command>firefox-esr</command>
+    </action>
+  </keybind>
+  <keybind key="W-i">
+    <action name="Execute">
+      <command>idea</command>
     </action>
   </keybind>
 
