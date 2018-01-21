@@ -196,7 +196,13 @@
   <keybind key="W-j">
     <action name="GoToDesktop"><to>left</to><wrap>no</wrap></action>
   </keybind>
+  <keybind key="W-Left">
+    <action name="GoToDesktop"><to>left</to><wrap>no</wrap></action>
+  </keybind>
   <keybind key="W-k">
+    <action name="GoToDesktop"><to>right</to><wrap>no</wrap></action>
+  </keybind>
+  <keybind key="W-Right">
     <action name="GoToDesktop"><to>right</to><wrap>no</wrap></action>
   </keybind>
   <keybind key="C-A-Up">
