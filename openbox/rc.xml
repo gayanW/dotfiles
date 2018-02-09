@@ -366,6 +366,11 @@
       <command>idea</command>
     </action>
   </keybind>
+  <keybind key="W-x">
+    <action name="Execute">
+      <command>xkill</command>
+    </action>
+  </keybind>
 
   <!-- Keybindings for windows -->
   <keybind key="W-q">
