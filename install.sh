@@ -14,6 +14,10 @@ cp $BASE/xinitrc  ~/.xinitrc
 mv -v ~/.Xresources ~/.Xresources.old 2> /dev/null
 cp $BASE/Xresources ~/.Xresources
 
+# .profile
+mv -v ~/.profile ~/.profile.old 2> /dev/null
+ln -s $BASE/profile ~/.profile
+
 # xrdb -merge ~/.Xresources
 
 sudo apt-get install fonts-inconsolata
