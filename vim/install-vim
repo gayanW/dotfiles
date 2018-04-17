@@ -27,4 +27,7 @@ ln -sf ~/.vim/autoload/plug.vim ~/.config/nvim/autoload/
 sudo gem install gem-ripper-tags
 sudo gem ripper_tags
 
+# directory used to override or add to the default settings in $VIMRUNTIME
+cp -r $BASE/after ~/.vim/after
+
 vim +PlugInstall +qall
