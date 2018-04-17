@@ -18,6 +18,7 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-commentary'
 
 call plug#end()
 
