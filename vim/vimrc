@@ -16,9 +16,8 @@ Plug 'junegunn/seoul256.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 
-Plug 'vim-ruby/vim-ruby'
-Plug 'tpope/vim-rails'
 Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-endwise'
 
 call plug#end()
 
