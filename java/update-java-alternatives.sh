@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# java commands to update
-declare -a arr=("java" "javac" "jdb" "javaws" "jar" "jdeps")
-
 if [ -z "$1" ]; then
 	echo "No argument supplied"
 	echo "Usage: ./update-alternatives-java /path/to/jdk"
@@ -18,8 +15,11 @@ else
 	exit 0
 fi
 
+# create an array with all files inside $JDK_HOME/bin
+bin_arr=($(ls $JDK_HOME/bin))
+
 ## loop through commands arr
-for i in "${arr[@]}"
+for i in "${bin_arr[@]}"
 do
 	read -p "Do you want to update $i (y/n)? " -n 1 -r
 	echo    # (optional) move to a new line
