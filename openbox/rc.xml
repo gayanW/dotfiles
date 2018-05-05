@@ -356,22 +356,22 @@
   </keybind>
 
   <!-- Keybindings for opening applications -->
-  <keybind key="W-f">
+  <keybind key="A-f">
     <action name="Execute">
       <command>firefox-esr</command>
     </action>
   </keybind>
-  <keybind key="W-i">
+  <keybind key="A-i">
     <action name="Execute">
       <command>idea</command>
     </action>
   </keybind>
-  <keybind key="W-x">
+  <keybind key="A-x">
     <action name="Execute">
       <command>xkill</command>
     </action>
   </keybind>
-  <keybind key="W-n">
+  <keybind key="A-n">
     <action name="Execute">
       <command>nautilus</command>
     </action>
