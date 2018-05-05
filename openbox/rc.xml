@@ -376,6 +376,11 @@
       <command>nautilus</command>
     </action>
   </keybind>
+  <keybind key="A-k">
+    <action name="Execute">
+      <command>kodi</command>
+    </action>
+  </keybind>
 
   <!-- Keybindings for windows -->
   <keybind key="W-q">
