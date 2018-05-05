@@ -371,6 +371,11 @@
       <command>xkill</command>
     </action>
   </keybind>
+  <keybind key="W-n">
+    <action name="Execute">
+      <command>nautilus</command>
+    </action>
+  </keybind>
 
   <!-- Keybindings for windows -->
   <keybind key="W-q">
