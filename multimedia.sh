@@ -4,6 +4,7 @@ cd $(dirname $BASH_SOURCE)
 BASE=$(pwd)
 
 sudo apt-get update
+sudo apt-get install kodi
 sudo apt-get install audacity
 sudo apt-get install lightworks
 sudo apt-get install -t jessie-backports youtube-dl
