@@ -1,0 +1,5 @@
+/* Reduce the "white flash" in new tabs */
+browser[type="content-primary"], 
+browser[type="content"] {
+	background: #778899 !important;
+}
