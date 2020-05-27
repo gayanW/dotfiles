@@ -1,5 +1,5 @@
-Privacy Policy
-==============
+# Privacy Policy
+
 DEFAULT™ built Gravity as a commercial app. 
 This service is provided by DEFAULT™ at no cost and is intended for use as is. 
 
@@ -51,7 +51,7 @@ This service may contain links to other sites. If you click on a third-party lin
 
 **Children’s Privacy**
 
-We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided me with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that we will be able to do necessary actions.
+We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided me with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.
 
 **Changes to This Privacy Policy**
 
