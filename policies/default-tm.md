@@ -20,6 +20,11 @@ All ads shown to children or to users of unknown age, are tagged to be treated a
 Maximum [ad content rating](https://support.google.com/admob/answer/6219315) is set based on the users age group, that is determined by the neutral age screen, to ensure that ads displayed to our users present content that is appropriate.
 If you want to know more about how Admob works or to exercise choice in regard to the data collected by it, refer to AdMob policies and restrictions.
 
+**Google Analytics for Firebase**	
+
+Google Analytics for Firebase is enabled for users age 13 and over, based on the users age group that is determined by a neutral age screen. If you want to know more about how Google Analytics for Firebase works or to exercise choice in regard to the data collected by it, refer to [Google Analytics for Firebase Use Policy](https://firebase.google.com/policies/analytics).
+
+
 **Log Data**
 
 Whenever you use any of our services, in a case of an error in the app, we may collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing the service, the time and date of your use of the service, and other statistics.
