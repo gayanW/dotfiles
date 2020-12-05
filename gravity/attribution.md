@@ -3,6 +3,7 @@ Attribution
 
 We are greatful to all the creators who have have openly licensed their work.
 
+
 Audio
 -----
 
@@ -40,5 +41,14 @@ Featuring Music by Matthew Pablo
 http://www.matthewpablo.com
 
 
+Art
+---
+
+michael jackson PNG Designed By Essie from [Pngtree.com][pngtree]
+
+arrow clipart PNG Designed By Essie from <a href="https://pngtree.com/">Pngtree.com</a>
+
+
 [CC-3.0]: https://creativecommons.org/licenses/by/3.0/
+[pngtree]: https://pngtree.com/
 
