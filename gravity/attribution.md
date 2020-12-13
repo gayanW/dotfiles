@@ -17,6 +17,7 @@ Audio
 
 [“tada1.wav”](https://freesound.org/people/jobro/sounds/60443/) by [jobro](https://freesound.org/people/jobro/) is licensed under [CC BY 3.0][CC-3.0].
 
+[“Door unlock”](https://freesound.org/people/H2x/sounds/415546/) by [H2x](https://freesound.org/people/H2x/) is licensed under [CC BY 3.0][CC-3.0].
 
 CountDownBoom.flac Copyright 2013 [Iwan Gabovitch](http://qubodup.net/), [CC-BY3 license][CC-3.0].
 
