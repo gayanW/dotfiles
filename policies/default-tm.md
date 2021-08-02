@@ -11,7 +11,7 @@ The app itself does not collect any personal and sensitive information, independ
 **Unity**
 
 As Unity developers we don't collect any personal and sensitive information independent of Unity. 
-Neutral age screen is used so to disable Unity analytics for users under 13.
+Unity Analytics is being disabled for all users at runtime.
 If you want to know more about how Unity Analytics works or to exercise choice in regard to the data collected by it, refer to their [privacy policy](https://unity3d.com/legal/privacy-policy).
 
 **Admob**
@@ -22,7 +22,7 @@ If you want to know more about how Admob works or to exercise choice in regard t
 
 **Google Analytics for Firebase**	
 
-Google Analytics for Firebase is enabled for users age 13 and over, based on the users age group that is determined by a neutral age screen. If you want to know more about how Google Analytics for Firebase works or to exercise choice in regard to the data collected by it, refer to [Google Analytics for Firebase Use Policy](https://firebase.google.com/policies/analytics).
+Google Analytics for Firebase is enabled for all users. If you want to know more about how Google Analytics for Firebase works or to exercise choice in regard to the data collected by it, refer to [Google Analytics for Firebase Use Policy](https://firebase.google.com/policies/analytics).
 
 
 **Log Data**
@@ -62,7 +62,7 @@ We do not knowingly collect personally identifiable information from children un
 
 We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. we will notify you of any changes by posting the new privacy policy on this page.
 
-This policy is effective as of 2020-05-27
+This policy is effective as of 2021-08-02
 
 **Contact Us**
 
