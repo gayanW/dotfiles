@@ -35,7 +35,7 @@ Cookies are files with a small amount of data that are commonly used as anonymou
 
 This service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this service.
 
-**Service Providers**
+**Other Service Providers**
 
 We may employ third-party companies and individuals due to the following reasons:
 
@@ -45,6 +45,12 @@ We may employ third-party companies and individuals due to the following reasons
 *   To assist us in analyzing how our service is used.
 
 We want to inform users of this service that these third parties may have access to your information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+
+The privacy policies of third party service providers used by the app:
+
+* [Google Play Services](https://www.google.com/policies/privacy/)
+* [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
+* [Facebook](https://www.facebook.com/about/privacy/update/printable)
 
 **Security**
 
