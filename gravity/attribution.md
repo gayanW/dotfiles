@@ -52,6 +52,8 @@ michael jackson PNG Designed By Essie from [Pngtree.com][pngtree]
 
 arrow clipart PNG Designed By Essie from <a href="https://pngtree.com/">Pngtree.com</a>
 
+<a href="https://www.flaticon.com/free-icons/reset" title="reset icons">Reset icons created by Freepik - Flaticon</a>
+
 
 [CC-3.0]: https://creativecommons.org/licenses/by/3.0/
 [pngtree]: https://pngtree.com/
